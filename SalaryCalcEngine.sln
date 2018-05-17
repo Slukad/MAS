@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalcEngine.Web", "SalaryCalcEngine\SalaryCalcEngine.Web.csproj", "{9CFF9E77-A0A3-44C1-AAD5-BCCB92C568E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5C460C03-A9AC-4230-A335-BAAC37663D9B} = {5C460C03-A9AC-4230-A335-BAAC37663D9B}
+		{068C8AA8-991F-4E49-AE1F-54CD51CF1C69} = {068C8AA8-991F-4E49-AE1F-54CD51CF1C69}
+		{A57EBEF6-5D87-4B00-BABD-BC0CD9AEE595} = {A57EBEF6-5D87-4B00-BABD-BC0CD9AEE595}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalcEngine.Tests", "SalaryCalcEngine.Tests\SalaryCalcEngine.Tests.csproj", "{5D47AC90-5494-473C-9221-7DAC8D2A8E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalcEngine.Data", "SalaryCalcEngine.Data\SalaryCalcEngine.Data.csproj", "{068C8AA8-991F-4E49-AE1F-54CD51CF1C69}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A57EBEF6-5D87-4B00-BABD-BC0CD9AEE595} = {A57EBEF6-5D87-4B00-BABD-BC0CD9AEE595}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalcEngine.Entity", "SalaryCalcEngine.Entity\SalaryCalcEngine.Entity.csproj", "{A57EBEF6-5D87-4B00-BABD-BC0CD9AEE595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalaryCalcEngine.Service", "SalaryCalcEngine.Service\SalaryCalcEngine.Service.csproj", "{5C460C03-A9AC-4230-A335-BAAC37663D9B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{068C8AA8-991F-4E49-AE1F-54CD51CF1C69} = {068C8AA8-991F-4E49-AE1F-54CD51CF1C69}
+		{A57EBEF6-5D87-4B00-BABD-BC0CD9AEE595} = {A57EBEF6-5D87-4B00-BABD-BC0CD9AEE595}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CFF9E77-A0A3-44C1-AAD5-BCCB92C568E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFF9E77-A0A3-44C1-AAD5-BCCB92C568E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFF9E77-A0A3-44C1-AAD5-BCCB92C568E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFF9E77-A0A3-44C1-AAD5-BCCB92C568E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D47AC90-5494-473C-9221-7DAC8D2A8E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D47AC90-5494-473C-9221-7DAC8D2A8E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D47AC90-5494-473C-9221-7DAC8D2A8E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D47AC90-5494-473C-9221-7DAC8D2A8E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068C8AA8-991F-4E49-AE1F-54CD51CF1C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068C8AA8-991F-4E49-AE1F-54CD51CF1C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068C8AA8-991F-4E49-AE1F-54CD51CF1C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068C8AA8-991F-4E49-AE1F-54CD51CF1C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57EBEF6-5D87-4B00-BABD-BC0CD9AEE595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57EBEF6-5D87-4B00-BABD-BC0CD9AEE595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57EBEF6-5D87-4B00-BABD-BC0CD9AEE595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57EBEF6-5D87-4B00-BABD-BC0CD9AEE595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C460C03-A9AC-4230-A335-BAAC37663D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C460C03-A9AC-4230-A335-BAAC37663D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C460C03-A9AC-4230-A335-BAAC37663D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C460C03-A9AC-4230-A335-BAAC37663D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC4ED784-D41B-4BA8-BFCB-48592DCF5E31}
+	EndGlobalSection
+EndGlobal

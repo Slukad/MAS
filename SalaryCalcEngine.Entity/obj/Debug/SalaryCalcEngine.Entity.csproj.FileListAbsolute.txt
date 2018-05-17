@@ -1,0 +1,5 @@
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Entity\bin\Debug\SalaryCalcEngine.Entity.dll
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Entity\bin\Debug\SalaryCalcEngine.Entity.pdb
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Entity\obj\Debug\SalaryCalcEngine.Entity.csproj.CoreCompileInputs.cache
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Entity\obj\Debug\SalaryCalcEngine.Entity.dll
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Entity\obj\Debug\SalaryCalcEngine.Entity.pdb

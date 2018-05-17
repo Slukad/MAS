@@ -1,0 +1,42 @@
+﻿<div id="employees">
+    <div class="jumbotron">
+        <p class="lead">Type the employee ID for an specific employee or leave blank to retrieve them all.</p>
+        <input class="form-control" type="number" data-bind="value: employeeId" placeholder="Employee ID" autofocus />        
+        <p class="tpad20"><a data-bind="click: getEmployees" class="btn btn-primary btn-lg">Get Employees &raquo;</a></p>
+        <span class="alert-danger" data-bind="text:error"></span>
+    </div>
+    <div class="pad10">        
+        <div class="row lpad20" data-bind="visible: employees().length > 0">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Role</th>
+                            <th>Annual Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody data-bind="foreach: employees">
+                        <tr>
+                            <td data-bind="text: id"></td>
+                            <td data-bind="text: name"></td>
+                            <td data-bind="text: roleName"></td>
+                            <td data-bind="text: annualSalary"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            var employeeViewModel = new SalaryCalcEngine.EmployeeViewModel();
+            var element = document.getElementById("employees");
+            ko.applyBindings(employeeViewModel, element);
+        });
+    </script>
+}

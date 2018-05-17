@@ -1,0 +1,12 @@
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\bin\Debug\SalaryCalcEngine.Data.dll
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\bin\Debug\SalaryCalcEngine.Data.pdb
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\obj\Debug\SalaryCalcEngine.Data.csproj.CoreCompileInputs.cache
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\obj\Debug\SalaryCalcEngine.Data.dll
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\obj\Debug\SalaryCalcEngine.Data.pdb
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\bin\Debug\SalaryCalcEngine.Entity.dll
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\bin\Debug\SalaryCalcEngine.Entity.pdb
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\obj\Debug\SalaryCalcEngine.Data.csprojResolveAssemblyReference.cache
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\bin\Debug\Newtonsoft.Json.dll
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\bin\Debug\System.Net.Http.Formatting.dll
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\bin\Debug\Newtonsoft.Json.xml
+C:\tmp\MAS\SalaryCalcEngine\SalaryCalcEngine.Data\bin\Debug\System.Net.Http.Formatting.xml
